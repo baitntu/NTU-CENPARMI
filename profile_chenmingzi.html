@@ -1,0 +1,228 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>陈铭子 - 详细主页</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <style>
+        body {
+            background: #1e1f2c;
+        }
+
+        #profile-wrapper {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: rgba(0, 0, 0, 0.65);
+            border-radius: 1rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: #aaa;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            color: #fff;
+        }
+
+        .profile-header {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .profile-photo {
+            flex: 0 0 200px;
+        }
+
+        .profile-photo img {
+            width: 100%;
+            border-radius: 12px;
+            border: 2px solid #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        .profile-photo .avatar {
+            width: 100%;
+            aspect-ratio: 1 / 1;
+            background: #3a3f5e;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #ffd966;
+            border: 2px solid #fff;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            text-transform: uppercase;
+        }
+
+        .profile-info {
+            flex: 1;
+        }
+
+        .profile-info h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2rem;
+        }
+
+        .profile-info .title {
+            color: #ffd966;
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .profile-info .affil,
+        .profile-info .email {
+            margin-bottom: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .section {
+            margin: 2rem 0;
+        }
+
+        .section h2 {
+            border-left: 4px solid #fff;
+            padding-left: 1rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        th,
+        td {
+            padding: 0.75rem;
+            text-align: left;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        th {
+            background: rgba(0, 0, 0, 0.4);
+        }
+
+        @media (max-width: 736px) {
+            .profile-header {
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div id="profile-wrapper">
+        <a href="index.html#people" class="back-link">← 返回团队主页</a>
+
+        <div class="profile-header">
+            <div class="profile-photo">
+                <img src="images/chen mingzi.png" alt="陈铭子">
+            </div>
+            <div class="profile-info">
+                <h1>陈铭子 (Chen Mingzi)</h1>
+                <div class="title">讲师</div>
+                <div class="affil">
+                    所在系室：信息工程系<br>
+                    办公地点：34号楼1117
+                </div>
+                <div class="email">
+                    📧 <a href="mailto:mchen17@ntu.edu">mchen17@ntu.edu</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>个人简介</h2>
+            <p>陈铭子，博士，2018年本科毕业于南京邮电大学计算机科学与技术专业，后硕博连读2024年毕业于南京邮电大学信号与信息处理专业，获工学博士学位。同年9月进入南通大学工作。主要从事多模态信息处理、语义通信、人工智能方面的研究。主持校教改课题1项。
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>研究方向</h2>
+            <ul>
+                <li><strong>多媒体通信</strong>：多模态信息处理、语义通信</li>
+                <li><strong>人工智能</strong>：智能学习路径设计、知识追踪等</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>教授课程</h2>
+            <ul>
+                <li>数字图像处理（本科生）</li>
+                <li>人工神经网络（研究生）</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>项目资助</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>项目名称</th>
+                        <th>角色</th>
+                        <th>起止时间</th>
+                        <th>备注</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>基于人工智能的学习路径设计研究</td>
+                        <td>主持</td>
+                        <td>2024.11-2025.10</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2>代表性成果</h2>
+
+            <h3>论文</h3>
+            <ul>
+                <li>Chen M, Wei X, Xie P, et al. QoE Oriented Intelligent Online Learning Evaluation Technology in B5G
+                    Scenario[J]. <em>Digital Communications and Networks</em>, 2024, 10(1): 7-15. (SCI, 中科院2区)</li>
+                <li>Chen M, Chen Y, Ni S, et al. Knowledge Tracing Based Wheel Spinning Detection Model in Intelligent
+                    Tutoring Systems [C]. <em>2024 the 13th International Conference on Educational and Information
+                        Technology (ICEIT)</em>, 2024. (EI)</li>
+            </ul>
+
+            <h3>授权专利</h3>
+            <ul>
+                <li>魏昕，陈铭子，丁平船，周亮. 一种P2P流媒体点播系统中基于请求队列的节点负载均衡方法，授权时间：2022年5月10日，中国，专利号：ZL201810578788.2.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>学术服务</h2>
+            <ul>
+                <li>CSIG视觉大数据专委会委员</li>
+            </ul>
+        </div>
+
+        <!-- 获奖信息、指导研究生情况均无，略去 -->
+    </div>
+    <div class="floating-buttons">
+        <a href="#" class="floating-btn" id="goTopBtn">↑ 回到顶部</a>
+        <a href="index.html#people" class="floating-btn">← 返回团队主页</a>
+    </div>
+    <script>
+        document.getElementById('goTopBtn')?.addEventListener('click', function (e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+    </script>
+</body>
+
+</html>
