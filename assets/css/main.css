@@ -2835,11 +2835,15 @@ th {
 
 /* 移动端表格横向滚动（不依赖额外包裹层） */
 @media (max-width: 736px) {
-	.section table {
-		display: block;
+	.section {
 		overflow-x: auto;
+	}
+
+	.section table {
+		min-width: 600px;
+		/* 保证表格宽度超过容器，触发横向滚动 */
+		width: auto;
 		white-space: nowrap;
-		-webkit-overflow-scrolling: touch;
 	}
 }
 
